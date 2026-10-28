@@ -1,5 +1,7 @@
 node_modules/
 cypress/videos/
 cypress/screenshots/
+cypress/downloads/
+cypress/reports/
 mochawesome-report/
 .DS_Store

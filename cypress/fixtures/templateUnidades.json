@@ -1,0 +1,10 @@
+{
+  "units": [
+    { "numero": "1", "tipologia": "Dos ambientes", "orientacion": "Contrafrente", "precio": "2500", "estado": "ENTREGADO", "piso": "1" },
+    { "numero": "2", "tipologia": "Monoambiente", "orientacion": "Contrafrente", "precio": "1000", "estado": "DISPONIBLE", "piso": "1" },
+    { "numero": "3", "tipologia": "Dos ambientes", "orientacion": "Contrafrente", "precio": "2500", "estado": "RESERVADO", "piso": "1" },
+    { "numero": "4", "tipologia": "Monoambiente", "orientacion": "Contrafrente", "precio": "1000", "estado": "VENDIDO", "piso": "1" },
+    { "numero": "5", "tipologia": "Dos ambientes", "orientacion": "Contrafrente", "precio": "2500", "estado": "BLOQUEADO", "piso": "1" },
+    { "numero": "6", "tipologia": "Monoambiente", "orientacion": "Contrafrente", "precio": "1000", "estado": "ALQUILADO", "piso": "1" }
+  ]
+}

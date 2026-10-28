@@ -1,0 +1,13 @@
+{
+  "projectNamePrefix": "QA Automation",
+  "currency": "ARS",
+  "country": "Argentina",
+  "state": "Capital Federal",
+  "city": "Caballito",
+  "jurisdiction": "Ciudad Autónoma de Buenos Aires (CABA)",
+  "address": "Av. Acoyte",
+  "streetNumber": "520",
+  "constructionType": "Edificio",
+  "adjustmentMode": "Definitivo",
+  "documentType": "CI CAPITAL FEDERAL"
+}

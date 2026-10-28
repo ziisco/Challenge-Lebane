@@ -1,16 +1,29 @@
 const { defineConfig } = require('cypress');
+const env = require('./cypress/cypress.env.json');
 
 module.exports = defineConfig({
   e2e: {
-    setupNodeEvents(on, config) {
+    baseUrl: env.url,
+    viewportWidth: 1440,
+    viewportHeight: 900,
+    defaultCommandTimeout: 10000,
+    env: {
+      username: env.username,
+      password: env.password
     },
-    // Configuración del reporte Mochawesome
+    setupNodeEvents(on, config) {
+      return config;
+    },
     reporter: 'mochawesome',
     reporterOptions: {
-      reportDir: 'cypress/reports/mocha', // Carpeta donde se guardarán los resultados
-      overwrite: false,                   // Evita sobrescribir reportes previos al correr specs individuales
-      html: false,                        // Se desactiva el HTML individual para generarlo unificado al final
-      json: true                          // Genera archivos JSON por cada archivo de prueba
+      reportDir: 'cypress/reports',
+      overwrite: true,
+      html: true,
+      json: false,
+      reportFilename: 'Reporte de ejecución Lebane',
+      reportTitle: 'Reporte de ejecución Lebane',
+      reportPageTitle: 'Reporte de ejecución Lebane',
+      inline: true
     }
   }
 });
